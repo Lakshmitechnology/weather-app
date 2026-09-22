@@ -60,7 +60,7 @@ function Weather() {
           type="text"
           value={city}
           onChange={(e) => setCity(e.target.value)}
-          placeholder="Enter a city, e.g. Hyderabad"
+          placeholder="Enter a city"
           className="flex-1 rounded-xl px-4 py-3 text-slate-900 placeholder-slate-400 outline-none focus:ring-4 focus:ring-white/40"
         />
         <button
